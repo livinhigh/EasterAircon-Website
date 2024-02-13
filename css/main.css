@@ -2574,14 +2574,14 @@ body > .page-loader {
   position: fixed;
 }
 .spinner {
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  border-top: 2px solid rgba(0, 0, 0, 0.5);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  border: 0px solid rgba(0, 0, 0, 0.1);
+  border-top: 0px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 0px solid rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  -webkit-animation: spin 1s linear infinite;
-          animation: spin 1s linear infinite;
+  -webkit-animation: spin  linear infinite 2s;
+          animation: spin  linear infinite 2s;
   position: absolute;
   top: 50%;
   left: 50%;
