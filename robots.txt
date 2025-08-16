@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Allow: /css/
+Allow: /images/
+Allow: /js/
+Allow: /fonts/
+Allow: /lib/
+
+# Disallow sensitive directories
+Disallow: /form-data/
+Disallow: /docs/
+Disallow: /admin/
+Disallow: /backup/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /temp/
+Disallow: /logs/
+
+# Prevent access to specific file types
+Disallow: /*.php$
+Disallow: /*.sql
+Disallow: /*.config
+Disallow: /*.env
+Disallow: /*.json
+Disallow: /*.txt$
+
+# Crawl-delay to prevent server overload
+Crawl-delay: 10
